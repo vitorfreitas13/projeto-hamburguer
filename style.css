@@ -414,21 +414,52 @@ footer .copy {
 /* ===== MOBILE PEQUENO ===== */
 @media (max-width: 480px) {
 
+    header .btn {
+        width: 100px;
+    }
+
     .hero h1 {
-        font-size: 30px;
+        font-size: 15px;
+        margin-bottom: 0;
     }
 
     .hero p,
     .cta p {
-        font-size: 16px;
+        font-size: 10px;
+        margin-bottom: 10px;
     }
 
-    .hero-buttons {
-        flex-direction: column;
+    .hero-stats strong{
+        font-size: 20px;
+    }
+
+    .hero-buttons a {
+       font-size: 10px;
+       padding: 0;
     }
 
     .btn {
-        width: 100%;
+        width: 30%;
         text-align: center;
+        padding: 1px;
+    }
+
+    article img {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .hero {
+        display: flex;
+        gap: 20px;
+    }
+
+    .div0 {
+        max-width: 80%;
+    }
+
+    .div1 {
+        max-width: 20%;
     }
 }
