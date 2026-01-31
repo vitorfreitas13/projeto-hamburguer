@@ -492,4 +492,8 @@ footer .copy {
         text-align: center;
     }
 
+    .menu-grid li .btn {
+    display: inline-block; /* garante que o botão respeite o margin auto */
+    margin: 10px auto 0; /* centraliza horizontalmente */
+}
 }
